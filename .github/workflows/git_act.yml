@@ -3,7 +3,7 @@ name: Github Actions
 on: push
 
 jobs:
-  run-on: ubuntu-latest
+  runs-on: ubuntu-latest
 
   steps:
     - name: Checkout code
